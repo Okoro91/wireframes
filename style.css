@@ -5,20 +5,137 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 .banner {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 5px 10px;
     align-items: center;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 24px;
     border: 3px solid black;
     padding: 3px 35px;
 }
 
 button {
-    width: 135px;
-    height: 20px;
+    width: 95px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+nav {
+    border: 3px solid black;
+    border-width: 3px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+}
+
+nav a {
+    color: black;
+}
+
+.hero {
+    width: 50%;
+    margin: 1px auto;
+}
+
+
+#home h2 {
+    display: block;
+    width: 100%;
+    border: 3px solid black;
+    padding: 25px 5px;
+    margin-bottom: 0;
+    font-size: 38px;
+    line-height: 1.1;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.fab {
+    margin-left: 5px;
+}
+
+#news img {
+    display: block;
+    width: 100%;
+}
+
+#news p {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    display: block;
+    width: 100%;
+    text-align: start;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.logo img {
+    display: inline-block;
+    width: 32px;
+    height: 25;
+    margin: 0;
+}
+
+.logo h2 {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    color: red;
+}
+
+.about ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about a {
+    color: black;
 }
